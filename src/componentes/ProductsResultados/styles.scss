@@ -1,0 +1,72 @@
+.products{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 2rem 0;
+
+    .productsResults {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+}
+
+.product{
+    width: 33.333333333333%;
+    margin: 0 auto 2rem;
+    padding: 0 10px;
+
+    .thumb {
+        display: block;
+        width: 100%;
+        
+        img {
+            max-width: 100%;
+            width: 200px;
+            height: 300px;
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+.details {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+    ul, ul li {
+        margin: 0; 
+        padding: 0;
+    }
+
+    ul {
+        li {
+            display: block;
+            width: 100%;
+            margin: 0 0 .5rem;
+            list-style-type: none;
+            text-align: center;
+
+            .name {
+                font-size: 2.2rem;
+                line-height: 1.2;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            .price {
+                font-size: 1.6rem;
+                line-height: 1;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            .botaoAdd {
+                margin: 2rem 0 0 0;
+            }
+        }
+    }
+}
